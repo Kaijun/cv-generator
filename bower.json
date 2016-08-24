@@ -1,8 +1,0 @@
-{
-  "name": "cv-generator",
-  "private": true,
-  "dependencies": {
-    "modernizr": "~2.8.1",
-    "milligram": "~1.1.0"
-  }
-}
