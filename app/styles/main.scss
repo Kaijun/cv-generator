@@ -17,11 +17,11 @@ body {
 .main{
 
   color: #333;
+  word-break: break-all;
   background: #DAE2F8;
   background: linear-gradient(0deg, #DAE2F8 , #D6A4A4);
   background-size: 400% 400%;
   animation: background 15s ease infinite;
-
 }
 
 a{
