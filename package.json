@@ -5,7 +5,10 @@
   },
   "scripts": {
     "gulp": "gulp",
-    "bower": "bower"
+    "bower": "bower",
+    "start": "gulp serve",
+    "build": "gulp build",
+    "deploy": "gulp"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
