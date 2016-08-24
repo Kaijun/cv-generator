@@ -1,5 +1,5 @@
 module.exports = {
-  name: "陈凯俊",
+  name: "Kaijun Chen",
   intro: "I'm Kaijun, i want to use Markdown here!",
   contact: [
     {
@@ -30,7 +30,7 @@ module.exports = {
       company: "TU Dresden",
       period: "Nov 2011 - Present",
       title: "Lead Design & Frontend Developer",
-      desc: "担任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草任职位窝草"
+      desc: "It's a looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooog text!"
     },
     {
       company: "TU Dresden",
@@ -41,34 +41,34 @@ module.exports = {
   ],
   projects: [
     {
-      title: "Lead Design & Frontend Developer",
+      title: "CV-Generator",
       desc: "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-      url: "http://example.com"
+      url: "https://github.com/kaijun/cv-generator/"
     },
     {
-      title: "Lead Design & Frontend Developer",
+      title: "Example Project",
       desc: "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
       url: "http://example.com"
     }
   ],
   educations: [
     {
-      major: "网络工程",
-      degree: "学士",
-      college: "西安电子科技大学",
-      period: "Nov 2011 - Nov 2014",
+      major: "Network Engineering",
+      degree: "Bachelor",
+      college: "Xidian University",
+      period: "Sep 2008 - Jul 2012",
     },
     {
       major: "Informatik",
       degree: "Master",
       college: "TU Dresden",
-      period: "Nov 2011 - Nov 2014",
+      period: "Oct 2013 - Sep 2016",
     }
   ],
   skills:[
     {
       name: "JavaScript",
-      score: 10
+      score: 9
     },
     {
       name: "HTML",
