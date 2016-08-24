@@ -8,7 +8,7 @@
     "gulp": "gulp",
     "bower": "bower",
     "start": "gulp serve",
-    "build": "gulp build",
+    "build": "gulp",
     "deploy": "gulp deploy"
   },
   "devDependencies": {

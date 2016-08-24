@@ -198,11 +198,16 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app/layouts'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
+// CNAME file detection
+gulp.task('CNAME', () => {
+  return gulp.src('app/CNAME').pipe(gulp.dest('dist'))
+});
+
+gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras', 'CNAME'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
-gulp.task('deploy', ['build'], () => {
+gulp.task('deploy', ['default'], () => {
   return gulp.src('./dist/**/*')
     .pipe($.ghpages());
 });
