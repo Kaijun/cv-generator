@@ -11,7 +11,7 @@
         {% include "layouts/contact.njk" %}
 
         <div class="intro">
-          {{ local.intro }}
+          {{ local.intro | safe }}
         </div>
 
         {% include "layouts/social.njk" %}
