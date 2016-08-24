@@ -1,0 +1,158 @@
+// bower:scss
+// endbower
+
+
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  background: gray;
+}
+
+a{
+  color: #BE7AA3;
+  transition: color 0.5s ease;
+  &:link{
+    color: #BE7AA3;
+  }
+  &:visited{
+    color: #BE7AA3;
+  }
+  &:active{
+    color: #BE7AA3;
+  }
+  &:hover{
+    color: #E0BACE;
+  }
+}
+
+.main{
+
+}
+
+
+.resume{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 32px 0 32px 0;
+  width: 1024px;
+
+}
+
+.left-section{
+  padding: 64px !important;
+  background: #FFFFFF;
+}
+
+.right-section{
+  padding: 64px !important;
+  background: #3B3C41;
+
+}
+.intro{
+  margin: 128px 0 0 0;
+}
+.contact, .social{
+  margin-top: 64px;
+  .entry{
+    padding: 6px 0;
+    .title{
+      font-weight: 500;
+    }
+  }
+}
+
+
+.section{
+
+  color: white;
+  margin-bottom: 48px;
+
+  .entry{
+    padding-bottom: 24px;
+  }
+
+  .title{
+    color: #8DFFFF;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .primary{
+    color: #FFF;
+    font-weight: 400;
+    padding-bottom: 12px;
+    font-size: 0.95em;
+  }
+  .secondary{
+    color: #BBBBBB;
+    font-size: 0.85em;
+  }
+}
+
+.exp-proj{
+  .link-icon{
+    width: 28px;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+}
+
+.education{
+  &.section{
+    margin-bottom: 0px;
+  }
+  .primary{
+    padding-bottom: 4px;
+  }
+}
+
+.skill{
+  &.section{
+    margin-bottom: 0px;
+
+    .entry{
+      padding-bottom: 8px;
+    }
+  }
+}
+.progress-bar{
+  .enable{
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    background-color: #BE7AA3;
+    height: 10px;
+
+    &.green{
+      background-color: #73EBAF;
+    }
+    &.blue{
+      background-color: #6FE9EF;
+    }
+    &.orange{
+      background-color: #FEDA64;
+    }
+    &.purple{
+      background-color: #C76DA9;
+    }
+    &.red{
+      background-color: #EF5350;
+    }
+  }
+  .rest{
+    width: 48%;
+    position: relative;
+    z-index: 0;
+    right: 2%;
+    height: 8px;
+    display: inline-block;
+    background-color: #222325;
+    border-bottom: solid 2px #333333;
+    border-top: solid 2px #1f1f1f;
+    border-right: solid 2px #333333;
+  }
+}
