@@ -9,7 +9,7 @@
     "bower": "bower",
     "start": "gulp serve",
     "build": "gulp",
-    "deploy": "gulp deploy"
+    "deploy": "gulp && gulp deploy"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",

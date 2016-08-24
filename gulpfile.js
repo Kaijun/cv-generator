@@ -207,7 +207,7 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras', 'CNAME'], () =>
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
-gulp.task('deploy', ['default'], () => {
+gulp.task('deploy', () => {
   return gulp.src('./dist/**/*')
     .pipe($.ghpages());
 });

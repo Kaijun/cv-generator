@@ -11,7 +11,7 @@
 ## Usage
 0. Fork this Repo
 1. `npm install`
-2. Edit the `/data/resume.js` to fit your own personal information.
+2. Edit `/data/resume.js` to fit your own personal information.
 3. Serving:  `npm run start`
 4. Building: `npm run build`
-5. Deploying to `gh-pages` branch: `npm run deploy`
+5. Deploying to `gh-pages` branch: `npm run deploy` (Building included)
