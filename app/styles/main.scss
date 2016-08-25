@@ -17,6 +17,10 @@ body {
 .main{
 
   color: #333;
+
+  min-width: 1280px;
+  text-align: center;
+
   word-wrap: break-word;
   background: #DAE2F8;
   background: linear-gradient(0deg, #DAE2F8 , #D6A4A4);
@@ -52,10 +56,10 @@ a{
 }
 
 .resume{
+  display: inline-block;
+  text-align: left;
   opacity: 1;
-  position: absolute;
   left: 50%;
-  transform: translate(-50%, 0);
   margin: 32px 0 32px 0;
   width: 1024px;
   animation: enter 1s ease-in;
