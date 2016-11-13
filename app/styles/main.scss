@@ -17,16 +17,17 @@ body {
 
 .main{
 
-  color: #333;
-
-  min-width: 1280px;
   text-align: center;
-
   word-wrap: break-word;
-  background: #DAE2F8;
-  background: linear-gradient(0deg, #DAE2F8 , #D6A4A4);
-  background-size: 400% 400%;
-  animation: background 15s ease infinite;
+
+  @media screen {
+    color: #333;
+    min-width: 1280px;
+    background: #DAE2F8;
+    background: linear-gradient(0deg, #DAE2F8 , #D6A4A4);
+    background-size: 400% 400%;
+    animation: background 15s ease infinite;
+  }
 }
 
 a{
@@ -64,7 +65,9 @@ a{
   margin: 32px 0 32px 0;
   width: 1024px;
   animation: enter 1s ease-in;
-  box-shadow: 5px 5px 24px 1px #555;
+  @media screen {
+    box-shadow: 5px 5px 24px 1px #555;
+  }
 }
 
 .left-section{
@@ -162,6 +165,9 @@ a{
     display: inline-block;
     background-color: #BE7AA3;
     height: 10px;
+    @media print{
+      border-bottom: solid 2px #333333;
+    }
 
     &.green{
       background-color: #73EBAF;
@@ -198,4 +204,10 @@ a{
   bottom: 36px;
   color: #888;
   font-size: 0.8em;
+}
+
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
 }
